@@ -1,11 +1,13 @@
 export default {
+    STRIPE_KEY: "pk_test_460mfPxbjOCkei7DwHBcfKuU0095S5aI3S",
+    MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
       REGION: "us-east-1",
       BUCKET: "kitkat-note-uploads"
     },
     apiGateway: {
       REGION: "us-east-1",
-      URL: "https://ywlsxf9n93.execute-api.us-east-1.amazonaws.com/prod/"
+      URL: "https://ywlsxf9n93.execute-api.us-east-1.amazonaws.com/prod"
     },
     cognito: {
       REGION: "us-east-1",
